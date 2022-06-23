@@ -4,7 +4,7 @@ import { createSbscription } from './db/firestore.api';
 function App() {
 
     const submit = (text) => {
-        console.log(text);
+        createSbscription(text);
     }
 
     return (
